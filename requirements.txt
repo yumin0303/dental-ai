@@ -6,3 +6,4 @@ scipy==1.18.0
 pandas==3.0.0
 numpy==2.3.5
 huggingface_hub==1.21.0
+matplotlib==3.10.8
