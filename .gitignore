@@ -1,0 +1,16 @@
+# 데이터셋 (너무 큼)
+Teeth or Dental Image Dataset/
+__pycache__/
+*.pyc
+
+# API 키 있는 레이블링 스크립트 (앱에 불필요)
+auto_labeler.py
+label_lower_front.py
+labeler.py
+labels.csv
+
+# 개발용
+.DS_Store
+*.egg-info/
+.env
+dental_cnn_trained.pth
