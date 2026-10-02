@@ -14,3 +14,6 @@ labels.csv
 *.egg-info/
 .env
 dental_cnn_trained.pth
+
+# 이전 모델 백업
+backup_model/
