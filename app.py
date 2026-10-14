@@ -130,10 +130,10 @@ if uploaded:
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("**Original photo**")
-        st.image(image, use_container_width=True)
+        st.image(image, width="stretch")
     with col2:
         st.markdown("**AI analysis heatmap**")
-        st.image(overlay_img, use_container_width=True)
+        st.image(overlay_img, width="stretch")
 
     st.pyplot(make_colorbar())
 
