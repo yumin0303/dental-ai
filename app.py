@@ -14,7 +14,7 @@ from gradcam import GradCAM
 
 # ── Page config ───────────────────────────────────────────────
 st.set_page_config(
-    page_title="OrthoLense",
+    page_title="Ortholens",
     page_icon="🦷",
     layout="centered",
 )
@@ -98,7 +98,7 @@ def make_colorbar():
 # ════════════════════════════════════════════════════════════
 #  UI
 # ════════════════════════════════════════════════════════════
-st.title("🦷 OrthoLense")
+st.title("🦷 Ortholens")
 st.caption("Upload a single photo of your teeth and let AI give you a first read on whether orthodontic treatment may be needed.")
 st.info("This result is for reference only and does not replace a professional medical diagnosis.", icon="ℹ️")
 st.divider()
